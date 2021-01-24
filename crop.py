@@ -2,7 +2,7 @@ import cv2
 
 
 
-image= cv2.imread("img/building.jpg")
+image= cv2.imread("building.jpg")
 
 print(image.shape)
 imgresize=cv2.resize(image,(1000,700))
