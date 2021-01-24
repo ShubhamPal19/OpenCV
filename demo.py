@@ -1,7 +1,7 @@
 import cv2
 
 
-img= cv2.imread("img/photo1.jpg")
+img= cv2.imread("car.jpg")
 
 imgGray= cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 imgblur = cv2.GaussianBlur(img,(19,19),0)
